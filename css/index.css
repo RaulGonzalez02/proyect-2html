@@ -1,0 +1,31 @@
+/* Subcontainer con logo y boton de acceso */
+.subcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+/* Boton de acceso */
+.boton__link{
+    background-color:rgba(7, 9, 10, 0.521);
+    display: flex;
+    justify-content: center;
+    border: 3px groove #D5DBDB;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: 0px 0px 100px 0px rgba(7,9,10,1);
+}
+.boton__link:hover{
+    background-color:rgba(213, 219, 219, 0.295);
+    border: 3px groove rgba(7,9,10,1);
+    box-shadow: 0px 0px 100px 0px rgba(213,219,219,1);
+
+}
+.boton__img{
+    display: flex;
+    width: 200px;
+}
+/* Menu estatico solo en index */
+.menu{
+    position: relative;
+}

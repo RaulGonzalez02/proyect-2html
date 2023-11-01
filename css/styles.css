@@ -1,0 +1,153 @@
+
+/* title font*/
+@font-face {
+    font-family: river;
+    src: url(../assets/fonts/Blank\ River.ttf);
+}
+/* menu and footer font*/
+@font-face {
+    font-family: inconsolata;
+    src: url(../assets/fonts/Inconsolata-Black.ttf);
+}
+/* text font */
+@font-face {
+    font-family: dosis;
+    src: url(../assets/fonts/Dosis-Regular.ttf);
+}
+body{
+    background-image: url("../assets/images/104_503877998.jpg");
+    background-repeat: none;
+    background-size: cover;
+    font-family: dosis;
+    color: #07090A;
+    letter-spacing: 1px;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* menu */
+.menu{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: inconsolata;
+    font-variant: small-caps;
+    background-color: #21283386;
+    position: sticky;
+    top: 10px;
+}
+.menu__text{
+    width: 800px;
+}
+.menu__items{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right:25px ;
+}
+.menu__item{
+    list-style: none;
+}
+.menu__link{
+    text-decoration: none;
+    color: #D5DBDB;
+    padding: 4px;
+}
+.menu__logo{
+    margin-left:40px ;
+}
+.menu__logo--img{
+    display: flex;
+    width: 150px;
+    padding: 5px;
+}
+.menu__link:hover{
+    outline: 2px solid #D5DBDB ;
+    color:  #405c69;
+}
+.menu__link--diferente{
+    border-bottom: #D5DBDB 1px solid;
+    color: #D5DBDB;
+}
+.menu__link--diferente:hover{
+    text-decoration: none;
+}
+/* Footer */
+.footer{
+    background-color: #21283386;
+    font-family: inconsolata;
+}
+.footer__container{
+    display: flex;
+    width: 1300px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.footer__map{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    padding: 15px 15px;
+    margin-right: 25px;
+}
+.map__mapa{
+    width: 300px;
+    height: 200px;
+}
+.footer__iconos{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 45px;
+    margin:25px;
+    border-left: 2px groove #D5DBDB;
+    border-right: 2px groove #D5DBDB;
+}
+.footer__text{
+    font-family: inconsolata;
+    font-size: medium;
+    font-style: italic;
+}
+.icons__links{
+    opacity: 60%;
+}
+.icons__links:hover{
+    opacity: 100%;
+}
+/* up arrow*/
+.iconosubida{
+    display: block;
+    width: 25px;
+    background-color: #D5DBDB;
+    border-radius:50% ;
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+}
+/* title from pages*/
+.main__titulo{
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 3px groove #D5DBDB;
+}
+.titulo{
+    text-align: center;
+    font-family: river;
+    font-size: 3.5rem;
+    border: 2px groove #D5DBDB;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    text-shadow: 7px 9px 6px rgba(59,54,162,0.6);
+}
+/* Styles container */
+.container{
+    width: 1080px;
+    background-color: #21283386;
+    color: #D5DBDB;
+    font-family: dosis;
+    font-variant: small-caps;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
